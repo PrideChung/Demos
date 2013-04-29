@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCD9E685172EDBA800DB0723 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD9E684172EDBA800DB0723 /* CViewController.m */; };
 		CCE27087172DAB6600BEDC1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE27086172DAB6600BEDC1C /* UIKit.framework */; };
 		CCE27089172DAB6600BEDC1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE27088172DAB6600BEDC1C /* Foundation.framework */; };
 		CCE2708B172DAB6600BEDC1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE2708A172DAB6600BEDC1C /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CCD9E683172EDBA800DB0723 /* CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		CCD9E684172EDBA800DB0723 /* CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
 		CCE27083172DAB6600BEDC1C /* PresentingViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentingViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE27086172DAB6600BEDC1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CCE27088172DAB6600BEDC1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +96,8 @@
 				CCE270A2172DAB6600BEDC1C /* AViewController.m */,
 				CCE270A9172DAB8600BEDC1C /* BViewController.h */,
 				CCE270AA172DAB8600BEDC1C /* BViewController.m */,
+				CCD9E683172EDBA800DB0723 /* CViewController.h */,
+				CCD9E684172EDBA800DB0723 /* CViewController.m */,
 				CCE2708D172DAB6600BEDC1C /* Supporting Files */,
 			);
 			path = PresentingViewController;
@@ -182,6 +187,7 @@
 				CCE27097172DAB6600BEDC1C /* AppDelegate.m in Sources */,
 				CCE270A3172DAB6600BEDC1C /* AViewController.m in Sources */,
 				CCE270AB172DAB8600BEDC1C /* BViewController.m in Sources */,
+				CCD9E685172EDBA800DB0723 /* CViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

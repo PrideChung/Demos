@@ -20,8 +20,8 @@
 	[super loadView];
 	
 	UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-	button.frame = CGRectMake(10, 10, 80, 40);
-	[button setTitle:@"show" forState:UIControlStateNormal];
+	button.frame = CGRectMake(10, 10, 300, 40);
+	[button setTitle:@"Click to start being awesome" forState:UIControlStateNormal];
 	
 	[button addTarget:self
 			   action:@selector(showBController)
@@ -45,17 +45,7 @@
 - (void)showBController
 {
 	BViewController *bVC = [[BViewController alloc] init];
-	bVC.delegate = self;
-	[self presentViewController:bVC
-					   animated:YES
-					 completion:nil];
-}
-
-- (void)dismissBViewController
-{
-	[self dismissViewControllerAnimated:YES completion:nil];
-	
-	// do something else ...
+	[self presentViewController:bVC animated:YES completion:nil];
 }
 
 @end

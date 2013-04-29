@@ -11,5 +11,4 @@
 
 @interface BViewController : UIViewController
 
-@property (weak, nonatomic) AViewController *delegate;
 @end

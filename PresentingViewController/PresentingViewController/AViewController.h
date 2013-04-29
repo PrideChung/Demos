@@ -10,6 +10,4 @@
 
 @interface AViewController : UIViewController
 
-- (void)dismissBViewController;
-
 @end
